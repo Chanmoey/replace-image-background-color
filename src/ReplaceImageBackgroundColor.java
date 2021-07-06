@@ -134,8 +134,8 @@ public class ReplaceImageBackgroundColor {
 
     public static void main(String[] args) throws IOException {
 
-        File originFile = new File("D:\\JavaProgram\\replace-image-background-color\\image\\origin.jpg");
-        File newFile = new File("D:\\JavaProgram\\replace-image-background-color\\image\\newFile.jpg");
+        File originFile = new File("D:\\JavaProgram\\replace-image-background-color\\image\\origin1.jpg");
+        File newFile = new File("D:\\JavaProgram\\replace-image-background-color\\image\\newFile1.jpg");
         ReplaceImageBackgroundColor replaceImageBackgroundColor = new ReplaceImageBackgroundColor(originFile);
         replaceImageBackgroundColor.go(newFile);
     }
